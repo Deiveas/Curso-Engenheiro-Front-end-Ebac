@@ -130,7 +130,7 @@ footer {
     h3, h2, li, a {
         color:blue;
     }
-    section, nav, article {
+    section, nav, article, img {
         width: 100%;
         height: auto;
     }
@@ -145,7 +145,7 @@ footer {
         color: #0A2A12;
     }
 
-    section, nav, article {
+    section, nav, article, img {
         width: 100%;
         height: auto;
     }

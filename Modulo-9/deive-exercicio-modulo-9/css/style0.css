@@ -130,7 +130,7 @@ picture img {
     h3, h2, li, a {
         color:blue;
     }
-    nav, article {
+    nav, article, img {
         width: 100%;
         height: auto;
     }
@@ -145,7 +145,7 @@ picture img {
         color:aqua;
     }
 
-    nav, article {
+    nav, article, img {
         width: 100%;
         height: auto;
     }

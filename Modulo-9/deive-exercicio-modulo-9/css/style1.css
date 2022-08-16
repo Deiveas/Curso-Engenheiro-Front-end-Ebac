@@ -154,7 +154,7 @@ p {
     h3, h2, li, a {
         color: darkred;
     }
-    nav {
+    nav, article, img {
         width: 100%;
         height: auto;
     }
@@ -169,7 +169,7 @@ p {
         color: crimson;
     }
 
-    nav,article {
+    nav, article, img {
         width: 100%;
         height: auto;
     }
