@@ -170,7 +170,7 @@ footer {
     h3, li, a {
         color: #2EFEF7;
     }
-    nav, section, article {
+    nav, section, article, iframe {
         width: 100%;
         height: auto;
     }
@@ -184,7 +184,7 @@ footer {
     h3, li, a {
         color: #6A0888;
     }
-    nav, section, article {
+    nav, section, article, iframe {
         width: 100%;
         height: auto;
     }
