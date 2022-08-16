@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+
+	</head>
+	<body>
+		<header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>	
+					<li><a href="./06-formulariosdeive.html">Contato</a></li>	
+				</ul>
+			</nav>
+			<article>
+
+				<h1>Título Artigo</h1>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ullamcorper, odio sed convallis venenatis, metus ligula gravida est, at bibendum ante erat in sem. Sed sollicitudin mauris eu dui rhoncus, in interdum enim commodo. Ut justo turpis, ultricies sed urna sed, accumsan dictum sem. Fusce eget nunc felis. Aenean nec eros odio. Sed congue nisl tortor, molestie tincidunt orci ullamcorper in. Phasellus posuere est libero, et pretium mauris sollicitudin laoreet. Morbi eget metus at ante interdum gravida. Vivamus et viverra tortor. Cras mauris risus, varius sit amet elementum a, elementum in mi.></p>
+
+<p>Nam a sapien massa. Sed sed placerat enim, vitae egestas felis. Nullam sed augue eu leo blandit porta eget a neque. Curabitur tempor pellentesque lorem sit amet faucibus. Quisque blandit augue sed leo tincidunt varius. Etiam eget dignissim dolor. Praesent ac varius neque. In sed orci ullamcorper, rutrum ex quis, pellentesque turpis. Donec imperdiet, ipsum id consequat sagittis, purus risus ornare nibh, at dictum dui erat id nisl.</p>
+
+<p>Proin suscipit nunc purus, eu fermentum ex consectetur nec. Suspendisse volutpat vehicula diam ut tempus. Vivamus ornare dolor et est interdum scelerisque. Duis tempor placerat cursus. Etiam aliquet massa vel risus fringilla, vulputate ornare erat accumsan. Ut vel ultrices ipsum. Morbi sollicitudin imperdiet nisi vel suscipit. Etiam ac volutpat est, nec ullamcorper elit. Ut pulvinar, magna in tempus gravida, dui ipsum efficitur nisl, nec gravida lorem turpis eu ipsum. Curabitur sodales dignissim mi, in posuere nulla dapibus a. Phasellus pretium tellus a metus dictum, ac iaculis felis semper. Maecenas dapibus justo ac interdum suscipit. Curabitur lorem purus, imperdiet sed metus a, lacinia rutrum dolor. Phasellus suscipit sapien vel sapien molestie tempor. Nullam efficitur nibh eget tempor tempus.</p>
+
+			</article>
+
+
+
+
+
+		</section>
+
+		<footer>Desenvolvido por Deive</footer>
+	</body>
+
+</html>

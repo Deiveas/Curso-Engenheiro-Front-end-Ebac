@@ -1,0 +1,28 @@
+git init (cria repositorio local)
+git add * (move para modo unmodified para modified)
+git add .
+git status (verifica o status dos arquivos e pastas)
+git commit -m "digite uma mensagem"
+git remote add origin URL (prepara repositório local para enviar ao remoto)
+git remote -v (mostra repositórios lincados ao remoto)
+git push origin master (envia arquivos para o GitHub)
+git config --list (lista todas as configurações)
+git config --global user.email "informe seu e-mail"
+git config --global user.name "informe seu nickname"
+git clone +url (copia repositório para repositório local)
+ls (lista arquivos e pastas)
+ls -a (lista arquivos e pastas ocultas)
+mv arquivo ./pasta a qual vc vai mover
+cat nome do arquivo (visualiza conteudo do arquivo)
+git push -f (envia ao remoto forçadamente)
+git pull origin master (puxa arquivos do GitHub para repositório local)
+git rm --cached nome do arquivo (reverte o add sem apagar o arquivo)
+git rm -f nome do arquivo (reverte o add e apaga definivitamente o arquivo da maquina)
+git log (visualiza todos os commits)
+git checkout nome do arquivo (volta o arquivo ao estado anterior do ultimo commit)
+git log --onelog (visualiza os commits em linha)
+git reset HEAD nome do arquivo (tira o arquivo da unstage e retorna ao estado anterior)
+git reset --soft HEAD~1 (volta exatamnete um commit)
+git reset --hard HEAD~1(revert add, commit e arquivo ao estado original)
+git revert HEAD~1(reverte o commit criando um novo)
+git remote remove origin (remove o que esta sendo enviado ao github)

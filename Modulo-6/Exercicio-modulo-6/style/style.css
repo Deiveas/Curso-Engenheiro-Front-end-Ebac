@@ -1,0 +1,197 @@
+/* 
+
+
+Arquivo CSS geral com estilos de todas páginas
+
+
+
+ */
+* {
+  box-sizing: border-box;
+
+}
+
+html {
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+    font-family:arial;
+    font-size: 62.5%; /* equivalente a 10px */
+
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  background-image: url(../imagens/codigo-fonte-da-area-de-trabalho-e-papel-de-parede-por-linguagem-de-computador-com-codificacao-e-programacao_33771-600.jpg);
+  border: 5px solid;
+  border-color: #424242;
+
+
+}
+
+#foto {
+  border: 3px solid white;
+  width: 80px;
+  border-radius: 50%;
+ 
+   }
+
+.img-zoom{
+  transition: all 0.3s;
+ 
+}
+.img-zoom:hover{
+  transition: 3s;
+  transform: scale(1.5);
+  transform: rotate3d(500grad);
+
+}
+.alin {
+  position: relative;
+  left: 42%;
+  
+}
+
+}
+body {
+   padding: 0;
+   margin: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+
+
+}
+
+h2 {
+    font-family: arial, helvetica, sans-serif;
+    color: #FFFFFF;
+    background-color: #000000;
+    width: 16%;
+    text-align: center;
+    border: 1px solid;
+
+  }
+
+ul {
+    background-color: #E6E6E6;
+    font-size: 20px;
+
+}
+
+ul li {
+
+    font-size: .8em; /* equivalente a 16px */
+    width: 80%;
+    height: 3rem; /* equivalente a 30px */
+}
+
+p {
+  font-size: 1.6rem; /* equivalente a 16px */
+
+}
+
+h2, h1 {
+  font-size: 2rem; /* equivalente 20px */
+
+
+}
+
+
+form div {
+    background-color: #E6E6E6;
+    border: 0;
+    /*
+    border-bottom: 1px solid #80FF00;
+    border-top: 1px solid #80FF00;
+    border-left: 1px solid #80FF00;
+    border-right: 1px solid #80FF00;
+    */
+    margin: 0; 
+    padding: 0; 
+
+}
+
+label {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+
+input {
+  padding: 1rem;
+}
+[type="text"], [type="email"], textarea, label {
+    display: block;
+    width: 100%;
+      
+}
+
+/* Style the header */
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+   
+  background:#E6E6E6;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #E6E6E6;
+}
+
+/* Clear floats after the columns */
+section::after {
+  background: #E6E6E6;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #424242;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+
+/*
+
+  top (superior / cima)
+  bottom (inferior / baixo)
+  left (esquerda)
+  right (direita) 
+*/
+

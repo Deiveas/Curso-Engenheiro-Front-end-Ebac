@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 62,5;
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color:#FE2E2E;
+    margin: 0;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    border: 2px solid #a4a4a4;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #b40404;
+    padding-top: 10px;
+}
+
+a, ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav {
+    padding-left: 10px;
+    width: 20%;
+    float: left;
+    
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article {
+    float: left;
+    width: 80%;
+
+}
+
+form {
+    background: #eee;
+    padding: 10px;
+    padding-left: 5px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+form div {
+    background: #fff;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    padding-bottom: 20px;
+    
+}
+
+label {
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+input {
+    padding: 1rem;
+}
+
+a:hover {
+    color: black;
+    background: #b40404;
+}
+
+input:hover {
+    color: black;
+    background: #b40404;
+}
+
+[type="text"], [type="email"], textarea, label {
+    display: block;
+    width: 100%;
+}
+
+.convite img {
+    width: 95%;
+    padding-right: 5px;
+}
+
+.figura-1 {
+    filter: sepia(0%);
+}
+
+.figura-1:hover {
+    filter: sepia(100%);
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.figura-2 { 
+    filter: invert(0%);
+}
+.figura-2:hover {
+    filter: invert(100%);
+    
+}
+footer {
+    background-color: #b40404;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: yellow;
+    }
+    h3, h2, li, a {
+        color:blue;
+    }
+    section, nav, article {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 425px) {
+    body {
+        background-color: blueviolet;
+    }
+    h3, h2, li, a {
+        color: #0A2A12;
+    }
+
+    section, nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+

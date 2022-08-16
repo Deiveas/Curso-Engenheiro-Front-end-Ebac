@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+}
+
+html {
+    padding: 20px 0;
+    margin: 0;
+    
+    
+}
+
+header img {
+    width: 15vw;    
+    
+}
+
+header {
+    text-align: center;
+    columns: 100px 1;
+}
+
+body {
+    background-color: #FFFF00;
+    overflow-x: hidden;
+}
+
+section::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: 10%;
+    text-transform: uppercase;
+  
+
+}
+
+iframe {
+    width: 40rem;
+    
+    
+}
+article {
+    width: 90%;
+    float: left;
+    
+    
+}
+
+img {
+    width: 80%;
+      
+}
+
+h3 {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    
+ }
+
+ul {
+    margin: auto;
+    text-align: center;
+
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color:dimgray;
+    color:yellow;
+}
+
+h3:hover {
+    color: green;
+}
+
+.width-100 {
+    display: block;
+    width: 100%;
+    width: 100vw;
+    padding: 20px 0;
+    height: auto;
+}
+
+.figuras {
+    display: table;
+    
+
+}
+
+.figura-1 {
+    filter: blur(0px);
+}
+
+.figura-1:hover {
+    filter: blur(1px);
+    border: 2px solid black;
+}
+
+.figura-2 {
+    filter: grayscale(0%);
+    
+}
+
+.figura-2:hover {
+    filter: grayscale(100%);
+    border: 2px solid black;
+}
+
+.figura-3 {
+    filter: invert(0%);
+}
+
+.figura-3:hover {
+    filter: invert(100%);
+    border: 2px solid black;
+
+}
+
+.figura-4 {
+    filter: invert(0%);
+}
+
+.figura-4:hover {
+    filter: invert(100%);
+    border: 2px solid black;
+    
+
+}
+footer {
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: #0B0B61;
+        color: white;
+
+    }
+    h3, li, a {
+        color: white;
+    }
+    nav {
+        width: 10%;
+    }
+    article {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #DF01D7;
+        color: #2EFEF7;
+    }
+    h3, li, a {
+        color: #2EFEF7;
+    }
+    nav, section, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        background-color: #01DF01;
+        color: #6A0888;
+    }
+    h3, li, a {
+        color: #6A0888;
+    }
+    nav, section, article {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+
