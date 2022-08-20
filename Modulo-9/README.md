@@ -46,15 +46,6 @@ git checkout master (mudar de branch)
 
 ### Merge
 mescla de branchs
-Você pode precisar resolver conflitos manualmente
 
-git merge main 
 
-### Pull Requests
-Mescla de branchs no repositório
-Permite code review
-O repositório resolve os conflitos automaticamente
 
-#### Configura  o GitFlow
-git flow init
-git flow feature start {nome-da-feature}
