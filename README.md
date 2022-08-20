@@ -24,3 +24,18 @@ Informação de alteração
 
 ## GitFlow
 Fluxo do Git
+
+### Branchs
+são ramificações / versões paralelas
+
+- main / master (vai para produção, quando o projeto é publicado)
+- develop
+- DOD Definition of Done: critérios de aceite
+- versionamento 1.0.0
+
+git checkout -b dev (cria uma branch)
+git checkout main (mudar de branch)
+
+### Merge
+Mescla de branchs
+
