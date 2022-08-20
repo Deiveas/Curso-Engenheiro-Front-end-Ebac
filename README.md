@@ -52,3 +52,4 @@ O repositório resolve os conflitos automaticamente
 git flow init
 git flow feature start {nome-da-feature}
 
+
