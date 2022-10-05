@@ -21,6 +21,7 @@ body {
     padding: 20px;
     width: 100%;
     margin: 0 auto;
+    max-width: 1198px;
 
 }
 
@@ -75,7 +76,19 @@ ul li {
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     margin-bottom: 20px;
+}
+
+#tenho-interesse {
+    background-color: #c1d0de;
+    width: 100%;
+}
+
+#tenho-interesse form {
+    background-color: #c1d0de !important;
+
 }
 section {
     background-color: #fff;
