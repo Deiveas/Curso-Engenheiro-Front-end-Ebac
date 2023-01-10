@@ -81,15 +81,18 @@ img {
     margin-bottom: 20px;
 }
 
+
+
 #tenho-interesse {
     background-color: #c1d0de;
     width: 100%;
 }
 
-#tenho-interesse form {
-    background-color: #c1d0de !important;
-
+#tenho-interesse :root:root:root .cog-cognito--styled.cog-cognito--protect-css, :root:root:root .cog-cognito--styled.cog-cognito--protect-css address, :root:root:root .cog-cognito--styled.cog-cognito--protect-css article, :root:root:root .cog-cognito--styled.cog-cognito--protect-css aside, :root:root:root .cog-cognito--styled.cog-cognito--protect-css audio, :root:root:root .cog-cognito--styled.cog-cognito--protect-css blockquote, :root:root:root .cog-cognito--styled.cog-cognito--protect-css canvas, :root:root:root .cog-cognito--styled.cog-cognito--protect-css div, :root:root:root .cog-cognito--styled.cog-cognito--protect-css fieldset, :root:root:root .cog-cognito--styled.cog-cognito--protect-css figcaption, :root:root:root .cog-cognito--styled.cog-cognito--protect-css figure, :root:root:root .cog-cognito--styled.cog-cognito--protect-css footer, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h1, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h2, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h3, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h4, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h5, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h6, :root:root:root .cog-cognito--styled.cog-cognito--protect-css header, :root:root:root .cog-cognito--styled.cog-cognito--protect-css hr, :root:root:root .cog-cognito--styled.cog-cognito--protect-css main, :root:root:root .cog-cognito--styled.cog-cognito--protect-css nav, :root:root:root .cog-cognito--styled.cog-cognito--protect-css ol, :root:root:root .cog-cognito--styled.cog-cognito--protect-css p, :root:root:root .cog-cognito--styled.cog-cognito--protect-css pre, :root:root:root .cog-cognito--styled.cog-cognito--protect-css section, :root:root:root .cog-cognito--styled.cog-cognito--protect-css ul, :root:root:root .cog-cognito--styled.cog-cognito--protect-css video {
+    display: contents !important;
 }
+
+
 section {
     background-color: #fff;
     display: block;
@@ -151,8 +154,4 @@ footer small {
     font-size: 80%;
     display: block;
     
-}
-.cognito {
-    height: 350px !important;
-    overflow: hidden !important;
 }
