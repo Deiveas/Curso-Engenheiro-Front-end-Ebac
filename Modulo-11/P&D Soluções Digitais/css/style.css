@@ -11,16 +11,18 @@ body {
 
 .main-container{
     display: block;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
+    overflow: hidden;
+    text-align: justify;
 }
 
 .container {
     display: block;
     float: left;
-    padding: 20px;
-    width: 100%;
-    margin: 0 auto;
+    padding: 0;
+    width: 98%;
+    margin: 0 1%;
     max-width: 1198px;
 
 }
@@ -30,7 +32,7 @@ header {
     display: block;
     float: left;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
     border-bottom: 1px solid #254159;
     
 }
@@ -99,7 +101,7 @@ section {
     float: left;
     font-size: 1.5rem; /* equivalente a 15px */
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 section nav {
@@ -132,6 +134,7 @@ section article {
     display: block;
     float: left;
     width: 70%;
+    
 }
 
 footer {
@@ -139,7 +142,7 @@ footer {
     display: block;
     float: left;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
 
 }
 
@@ -155,3 +158,4 @@ footer small {
     display: block;
     
 }
+
