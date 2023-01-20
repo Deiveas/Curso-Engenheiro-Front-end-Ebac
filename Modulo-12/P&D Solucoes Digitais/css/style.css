@@ -19,7 +19,6 @@ body {
 
 .container {
     display: block;
-    float: left;
     padding: 0;
     margin: 0 auto;
     max-width: 1198px;
@@ -40,7 +39,8 @@ header {
 h1 {
     font-size: 2.4rem;
     color: #254159;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -83,16 +83,8 @@ img {
     
 }
 
-#tenho-interesse form,
-.cognito.c-med .c-forms-form,
-.cognito.c-med .c-forms-form div {
-    background-color: #b8c8d6 !important;
-    
-}
-
-#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
-#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
-    color: #385874;
+#tenho-interesse :root:root:root .cog-cognito--styled.cog-cognito--protect-css, :root:root:root .cog-cognito--styled.cog-cognito--protect-css address, :root:root:root .cog-cognito--styled.cog-cognito--protect-css article, :root:root:root .cog-cognito--styled.cog-cognito--protect-css aside, :root:root:root .cog-cognito--styled.cog-cognito--protect-css audio, :root:root:root .cog-cognito--styled.cog-cognito--protect-css blockquote, :root:root:root .cog-cognito--styled.cog-cognito--protect-css canvas, :root:root:root .cog-cognito--styled.cog-cognito--protect-css div, :root:root:root .cog-cognito--styled.cog-cognito--protect-css fieldset, :root:root:root .cog-cognito--styled.cog-cognito--protect-css figcaption, :root:root:root .cog-cognito--styled.cog-cognito--protect-css figure, :root:root:root .cog-cognito--styled.cog-cognito--protect-css footer, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h1, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h2, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h3, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h4, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h5, :root:root:root .cog-cognito--styled.cog-cognito--protect-css h6, :root:root:root .cog-cognito--styled.cog-cognito--protect-css header, :root:root:root .cog-cognito--styled.cog-cognito--protect-css hr, :root:root:root .cog-cognito--styled.cog-cognito--protect-css main, :root:root:root .cog-cognito--styled.cog-cognito--protect-css nav, :root:root:root .cog-cognito--styled.cog-cognito--protect-css ol, :root:root:root .cog-cognito--styled.cog-cognito--protect-css p, :root:root:root .cog-cognito--styled.cog-cognito--protect-css pre, :root:root:root .cog-cognito--styled.cog-cognito--protect-css section, :root:root:root .cog-cognito--styled.cog-cognito--protect-css ul, :root:root:root .cog-cognito--styled.cog-cognito--protect-css video {
+    display: contents !important;
 }
 
 ol {
@@ -111,7 +103,6 @@ section {
     font-size: 1.5rem; /* equivalente a 15px */ 
     padding: 20px 0;
     width: 100%;
-    box-sizing: border-box;
 
 }
 
@@ -152,7 +143,7 @@ footer {
     display: block;
     float: left;
     padding: 20px 0;
-    width: 100%;
+    width: 99.9%; 
 }
 
 footer p {
@@ -195,7 +186,7 @@ footer small {
 
 .legenda-container {
     float: right;
-    margin: 10vh 10vh 0 0;
+    margin: 40px 0 0 0;
     width: 30vw; 
 }
 
@@ -214,7 +205,7 @@ footer small {
 
 .button-cta {
     border-radius: 25px;
-    display: inline;
+    display: inline-block;
     background-color: orangered;
     color: #fff;
     font-size: 1.8rem;
@@ -224,7 +215,7 @@ footer small {
     width: auto;
     text-decoration: none;
     font-weight: 300;
-    float: right;
+    margin: 20px auto;
 }
 
 #saiba-mais {
@@ -241,6 +232,13 @@ footer small {
     padding: 20px;
 }
 
+#perguntas-frequentes {
+    background-color: #b8c8d6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
 dl {
     margin: 20px 0 ;
 }
@@ -249,6 +247,8 @@ dt {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 1.6rem;
+    color: #254159;
+    margin-bottom: 5px;
 }
 
 dd {
