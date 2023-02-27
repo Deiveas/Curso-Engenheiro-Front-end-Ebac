@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Javascript</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="mensagem"></div>
+
+        <form id="formulario-02">
+            <h2>Faça seu cadastro</h2>
+            <input type="text" placeholder="digite seu nome" class="obrigatorio" oninput="nameValidate()" name="nome">
+            <span class="required">Nome deve ter no mínimo 5 caracteres</span>
+            <input type="text" placeholder="digite seu email" class="obrigatorio" oninput="emailValidate()" name="email">
+            <span class="required">E-mail deve ser válido</span>
+            <input type="text" placeholder="digite seu telefone" class="obrigatorio" oninput="telefoneValidate()" name="telefone">
+            <span class="required">Digite um telefone válido com DDDI</span>
+            <input type="text" placeholder="digite seu cep" class="obrigatorio" oninput="cepValidate()" name="cep">
+            <span class="required">CEP deve ter no mímino 8 caracteres</span>
+            <input type="text" placeholder="digite seu cidade" class="obrigatorio" oninput="cidadeValidate()" name="cidade">
+            <span class="required">Cidade deve ter no mímino 4 caracteres</span>
+            <input type="text" placeholder="digite seu uf" class="obrigatorio" name="uf" oninput="ufValidate()"> 
+            <span class="required">Digite uma UF válida em maiúsculo</span>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div id="resultado">
+            
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="./js/script2.js"></script>
+    
+</body>
+</html>
