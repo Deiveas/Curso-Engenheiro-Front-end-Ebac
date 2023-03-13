@@ -2,6 +2,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 section{
     padding-bottom: 4rem;
     padding-top: 4rem;
@@ -37,7 +38,6 @@ textarea{
 .table-hover{
     background-color:bisque;
 }
-
-.btn{
-    background-color:red;
+.carosel-item{
+    width: 25%;
 }
