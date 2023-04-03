@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+        
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 62,5%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background-color:#A9F5BC;
+    margin: 0;
+    
+}
+.logo {
+    display: block;
+    margin: auto;
+    border: 2px solid #A4A4A4;
+    box-shadow: 10px 10px 10px #0A2A12;
+    
+}
+
+h1, p {
+    padding-left: 20px;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+header {
+    text-align: center;
+    background-color: #2EFE9A;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding-left: 10px;
+    width: 20%;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+    background: #0A2A12;
+}
+
+article {
+    float: left;
+    width: 80%;
+
+}
+
+form {
+    background: #eee;
+    padding: 10px;
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+form div {
+    background: #fff;
+    border: 1px solid black ;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+label {
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+input {
+    padding: 1rem;
+}
+
+input:hover {
+    color: black;
+    background: #2EFE9A;
+}
+
+a:hover {
+    color: black;
+    background: #2EFE9A;
+}
+
+textarea:hover {
+    color: black;
+    background: #2EFE9A;
+}
+
+[type="text"], [type="email"], textarea, label {
+    display: block;
+    width: 100%;
+}
+
+.gif img {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.evento  {
+    text-align: center;
+    text-transform: uppercase;
+}
+.coofee {
+    width: 102%;
+    
+    
+}
+
+.figura-1 {
+    filter: invert(0%);
+}
+
+.figura-1:hover {
+    filter: invert(100%);
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.figura-2 {
+    filter: saturate(100%);
+}
+
+.figura-2:hover {
+    filter: saturate(0%);
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.figura-3 {
+    filter: sepia(0%);
+}
+
+.figura-3:hover {
+    filter: sepia(100%);
+    border-radius: 50%;
+    border: 2px solid black;
+}
+footer {
+    background-color:#2EFE9A;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+    h3, h2, li, a {
+        color:blue;
+    }
+    section, nav, article {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 425px) {
+    body {
+        background-color: blueviolet;
+    }
+    h3, h2, li, a {
+        color: #0A2A12;
+    }
+
+    section, nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
