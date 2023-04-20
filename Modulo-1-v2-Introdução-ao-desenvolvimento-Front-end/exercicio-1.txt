@@ -1,0 +1,10 @@
+Qual a importância do HTML CSS e JavaScript na construção de páginas?
+
+O HTML (Hypertext Markup Language) é importante para gerar documentos para a web de forma fácil, assegurando a acessibilidade das páginas e sua transmissão pela internet. Ele foi a primeira linguagem de marcação que atendeu a um grande número de plataformas para computadores e browsers.
+A linguagem de marcação usa códigos HTML na criação das suas páginas. Esses códigos são responsáveis por definir espaçamento, cor, tamanho da letra e tantos outros aspectos de um site.
+
+O CSS tem a tarefa de separar o conteúdo do site de sua apresentação visual, alterando elementos como cor do texto, fonte e espaçamento entre blocos, assim como todo o aspecto estético de uma página.
+O CSS é o que dá estilo aos códigos (como se fosse a roupa que a pessoa utiliza).
+
+O JavaScript permite inserir vários efeitos, fazendo com que o site fique mais dinâmico, principalmente, porque permite ao programador da web melhorar a página do site. A linguagem de programação JacaScript nos permite executar instruções como resposta às ações do usuário.
+O Javascript é o que dá movimento e ação (como se fosse o espírito do corpo).
