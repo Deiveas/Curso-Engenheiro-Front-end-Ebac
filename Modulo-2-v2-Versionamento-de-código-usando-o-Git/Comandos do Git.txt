@@ -1,6 +1,6 @@
 git init (cria repositorio local)
 git add * (move para modo unmodified para modified)
-git add .
+git add . (move todos arquivos e pasta para stage)
 git status (verifica o status dos arquivos e pastas)
 git commit -m "digite uma mensagem"
 git commit -am "digite uma mensagem" adiciona o arquivo e commit ao mesmo tempo
@@ -20,10 +20,43 @@ git pull origin master (puxa arquivos do GitHub para repositório local)
 git rm --cached nome do arquivo (reverte o add sem apagar o arquivo)
 git rm -f nome do arquivo (reverte o add e apaga definivitamente o arquivo da maquina)
 git log (visualiza todos os commits)
-git checkout nome do arquivo (volta o arquivo ao estado anterior do ultimo commit)
+git branch "nome da brach a ser criada"(cria uma nova branch)
+git branch (lista as branchs existentes)
+git branch "nome da nova branch" "nome da branch"(cria uma nova herdando os arquivos da branch selecionada)
+git branch -D "nome da brach" (deleta branch)
+git checkout "nome do arquivo" (volta o arquivo ao estado anterior do ultimo commit)
+git checkout "numero da Hash" (volta ao commit selecionado)
+git checkout "nome da branch" (navega entre as branchs)
+git checkout -b "nome branch" (Cria nova branch e já vai para ela levando os arquivos da brach anterior)
 git log --onelog (visualiza os commits em linha)
+git log -n "0" (quantidade de commits a serem visualizados)
+git log --oneline (traz todos os commits de forma resumida)
+git log --stat (mostra alterações em todos arquivos commitados)
 git reset HEAD nome do arquivo (tira o arquivo da unstage e retorna ao estado anterior)
 git reset --soft HEAD~1 (volta exatamnete um commit)
 git reset --hard HEAD~1(revert add, commit e arquivo ao estado original)
 git revert HEAD~1(reverte o commit criando um novo)
 git remote remove origin (remove o que esta sendo enviado ao github)
+echo "conteudo do arquivo" > "nome do arquivo.extensão" (cria um arquivo)
+cat .\"nome do arquivo" (ver conteudo do arquivo)
+git merge "nome da branch que vc quer unir ou mesclar" (traz todos os arquivos da branch selecionada)
+
+Padrões de nomenclaturas para mensagens em commits
+
+Chore - pequena tarefa
+
+git commit -m "chore: removendo 'nome do arquivo.extensão'"
+
+Fix - correções 
+
+git commit -m "fix: correção no cálculo de médias"
+
+Feat - inclusão de funcionalidade
+
+git commit -m "feat: inclusão de função para calcular mediana"
+
+Docs - atualização de documentação
+
+git commit -m "docs: atualizando o 'nome do arquivo.extensão'"
+
+
