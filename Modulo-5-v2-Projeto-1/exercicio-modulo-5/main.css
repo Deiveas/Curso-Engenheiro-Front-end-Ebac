@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: auto;
+
+}
+
+header h1,
+section h2 {
+    font-family: 'Sigmar', cursive;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Foldit', cursive;
+    font-weight: normal;
+}
+
+header img {
+    width: 15%;
+
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-front {
+    width: 40%;
+    margin-right: 32px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container p {
+    text-align: justify;
+}
+
+.icones-games img {
+    height: 40px;
+}
+
+.icones-games li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #000000;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.consoles img {
+    height: 110px;
+}
+
+.consoles li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.consoles {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.consoles li {
+    margin: 10px;
+    position: relative;
+    top: 40px;
+}
+
+.consoles li img {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+#consoles-sections .container,
+h2 {
+    display: block;
+    text-align: center;
+}
+
+.redes-links img {
+    height: 24px;
+}
+
+.redes-links li {
+    display: inline;
+    margin-right: 8px;
+
+}
+
+.redes-links #contato .container {
+    display: block;
+}
+
+#contato .container {
+    display: block;
+}
+
+.contato-metodo {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a63939;
+}
+
+.endereco p {
+    font-family: 'Foldit', cursive;
+    font-weight: normal;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #a63939;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 16px 0;
+
+}
+
