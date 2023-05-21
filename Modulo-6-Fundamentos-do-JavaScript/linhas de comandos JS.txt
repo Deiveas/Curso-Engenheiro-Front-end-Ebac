@@ -1,0 +1,273 @@
+comandos Javascript:
+Como declarar uma variavél:
+comando "var" = É a forma mais antiga de declarar uma variável em JavaScript.
+comando "let" = É uma forma mais recente e moderna de declarar variáveis em JavaScript.
+comando "const" = São constantes e não podem ser reatribuídas após a sua declaração. Isso significa que o valor atribuído a uma variável const não pode ser alterado posteriormente.
+---------------------------------------------------------------------------------------------
+Os unicos caracteres especiais que pode ser utilizados para declarar uma variável são:
+Underline = _nome da variável
+Cifrão = $nome da variável "ambos sem espaço"
+----------------------------------------------------------------------------------------------  
+window.alert: abre mensagem em forma de balão no navegador.
+---------------------------------------------------------------------------------------------
+window.confirm:abre mensagem em forma de balão no navegador com opção de confirmar ou cancelar
+---------------------------------------------------------------------------------------------
+window.prompt:abre mensagem em forma de balão no navegador com menu para inserir dados como ex:nome
+---------------------------------------------------------------------------------------------
+no java o sinal de igual(=) significa recebe
+---------------------------------------------------------------------------------------------
+no java o sinal de igual(=null) significa nula
+----------------------------------------------------------------------------------------------Identificadores:
+*Podem começar com letras,$ ou_
+*Não podem começar com números
+*É possivel usar letras ou numeros
+*É possivel usar acentos e símbolos
+*Não podem conter espaços
+*Não podem ser palavras reservadas(comandos java)
+---------------------------------------------------------------------------------------------
+Tipos primitivos primordiais:
+Number :
+String:
+Boolean:
+---------------------------------------------------------------------------------------------
+Sinal de + no JS tem efeito de concatenação
+---------------------------------------------------------------------------------------------
+Comandos de conversão de string para number:
+
+Number.parseInt(n) : converter para inteiro
+
+Number.parseFloat(n): converter para real 
+-------------------------------------------------------------------------------------------------
+Conversão de String para número:
+
+n.toString()
+-------------------------------------------------------------------------------------------------
+// = comentário em linha 
+/* */ = comentário em bloco
+-------------------------------------------------------------------------------------------------
+Formatando  Strings: var s = 'JavaScript'
+
+'Eu estou aprendendo s' // não faz interpolação
+'Eu estou aprendendo' + s // usa concatenação
+'Eu estou aprendendo ${s}' // usa template string
+s.length // quantos caracteres a string tem
+s.toUpperCase() // tudo para 'MAIÚSCULAS'
+s.toLowerCase() // tudo para 'minúscula'
+-------------------------------------------------------------------------------------------------
+Formatando Números:
+
+toFixed(2): duas casas decimais
+toFixed(2).replace('.',','): duas casas decimais e trocando de (.) para (,)
+-------------------------------------------------------------------------------------------------
+Formato padrão BRL, USD e EUR:
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})
+n1.toLocaleString('pt-BR', {style: 'currency', currency:'USD'})
+n1.toLocaleString('pt-BR', {style: 'currency', currency:'EUR'})
+-----------------------------------------------------------------------------
+Operadores Aritméticos:
+5+2=7
+5-2=3
+5*2=10
+5/2=2.5
+5%2=1 (sempre o resto da divisão inteira)
+5**2=25 (* * significa elevado a potência)
+5+3/2=6.5(JAVA resolve primeiro a divisão ) 
+(5+3)/2=4  (para obter a lógica da matematica usamos ( ))
+----------------------------------------------------------------------------------
+Precedência:sinais
+1º( )
+2º **
+3º * / %
+4º + - 
+------------------------------------------------------------------------------
+Atribuições simples - Ordem de Precedência:
+var a = 5 + 3          (8)
+var b = a % 5         (3)   	
+var c = 5 * b ** 2   (45)
+var d = 10 - a / 2    (6)
+var e = 6 * 2 / d      (2)
+var f  =b % e + 4 / e  (3)
+---------------------------------------------------------------------------------
+Auto Atribuições       Simplificando     Incremento
+var n = 3                        
+n = n + 4                     n + = 4                var x = 5           
+n = n -  5                     n -  =  5                x = x + 1 (x ++)  
+n = n * 4                      n * = 4                 x = x - 1  (x --)
+n = n /  2                      n / = 2
+n = n ** 2                     n ** = 2
+n = n % 5                     n % = 5
+----------------------------------------------------------------------------------
+Operadores Relacionais
+5 > 2 true
+7 < 4 false
+8 >= 8 true
+9 <= 7 false
+5 == 5 true
+4 != 4 false ( != quer dizer não igual)
+-------------------------------------------------------------------------------
+Operadores de Identidade:
+5 == 5  true
+5 == '5' true
+5 === '5' false
+5 === 5 true
+=== (quer dizer se é identico)
+!== (desigual restrito)
+----------------------------------------------------------------------------------
+Operadores Lógicos:
+! (negação)
+&& (conjunção)   (& comercial)
+|| (disjunção)  (quer dizer pyps) barras verticais
+--------------------------------------------------------------------------------
+Operador de Negação:
+! true - false
+! false - true
+---------------------------------------------------------------------------------
+Operador de Conjunção:            
+true           true   → true
+true   &&   false  →  false        
+false          true   → false
+false          false  → false
+-------------------------------------------------------------------------------
+Operado de Disjunção:
+true         true  → true
+true         false → true
+false   ||   true → true
+false        false → false
+-----------------------------------------------------------------------------------
+Precedência:
+1° operadores aritiméticos ( )   **   /
+2° operadores relacionais >   <   >=
+3° operadores lógicos 1º !  ☺  2° && ☺  3º ||
+------------------------------------------------------------------------------
+Operador Ternário:
+?   :
+-----------------------------------------------------------------------------------
+DOM = Document Object Model
+Selecionando elementos DOM por Marca, ID, Nome, Classe e Seletor
+ID usa-se #
+CLASS usa-se .
+Técnicas : TagName, ID, Name, ClassName e querySelector
+
+-----------------------------------------------------------------------------------
+ Array
+variável = [0,1,2,3]
+variável.push adiciona da variável
+variável.pop exclui da variável
+-----------------------------------------------------------------------------------
+Laços de repetição
+while
+for (ambos comandos de repetição)
+-----------------------------------------------------------------------------------Comando para redirecionar página web
+window.open
+window.location.href (ambos fazem o mesmo redirecionamento)
+----------------------------------------------------------------------------------
+Condição Simples
+
+if (condição) {true} comandos de desvios.
+else {false}
+----------------------------------------------------------------------------------
+Interpolação
+
+sempre que houver ${} é com (``)crase no inicio e final da linha de comando.
+-----------------------------------------------------------------------------------
+<div id="_"> "linguagem CSS" ( utiliza-se ('div#_')
+<div class="_"> "linguagem CSS" ( utiliza-se ('div._')
+-----------------------------------------------------------------------------------
+Condições Aninhadas
+Exemplo 1
+-------------------------------------------------------------------------------------------------
+var idade  =16
+console.log(`Você tem ${idade} Anos.`)
+if (idade < 16){
+console.log('Não vota')
+}else if (idade < 18 || idade >65){
+    console.log('Voto opcional')
+}else {
+    console.log('Voto obrigatório')
+-------------------------------------------------------------------------------------------------
+Exemplo 2
+-------------------------------------------------------------------------------------------------
+var agora = new Date()
+var hora = agora.getHours()
+console.log(`Agora são exatamente ${hora} Horas.`)
+if(hora < 12){
+    console.log('Bom dia!')
+}else if(hora <= 18){
+    console.log('Boa Tarde!')
+}else {
+    console.log('Boa Noite')
+}
+-------------------------------------------------------------------------------------------------
+Condição Múltipla (comando break é obrigatório em cada case)
+
+var agora = new Date()
+var diaSem = agora.getDay()
+/*
+0 = Domingo
+1 = Segunda
+2 = terça
+3 = Quarta
+4 = Quinta 
+5 = Sexta
+6 = Sábado
+*/
+console.log(diaSem)
+switch(diaSem){
+    case 0:
+    console.log('Domingo')
+    break
+    case 1:
+    console.log('Segunda')
+    break
+    case 2:
+    console.log('Terça')
+    break
+    case 3:
+    console.log('Quarta')
+    break
+    case 4:
+    console.log('Quinta')
+    break
+    case 5:
+    console.log('Sexta')
+    break
+    case 6:
+    console.log('Sábado')
+    break
+    default:
+    console.log('[ERRO] Dia inválido')
+    break
+
+    }
+------------------------------------------------------------------------------------------------
+Laços de Repetições
+
+Estrutura de repetição com teste lógico no inicio:
+
+while (variável condição exemplo <>= e valor) {
+	Bloco
+	variável++
+}
+
+Estrutura de repetição com teste lógico no final:
+
+do {
+      Bloco
+      variável++		
+} while (variável condição exemplo <>= e valor)
+
+Estrutura de repetição com teste lógico no inicio com incremento:
+
+for (inicio; teste; incr) {
+	Bloco
+}
+
+
+
+
+
+
+
+
+	
