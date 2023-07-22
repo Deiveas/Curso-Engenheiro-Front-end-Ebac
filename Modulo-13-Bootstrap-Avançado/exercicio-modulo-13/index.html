@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAS Cine Streaming</title>
+    <link rel="stylesheet" href="../lib/bootstrap.min.css">
+    <style>
+        .card-text {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+
+        <div class="navbar navbar-expand-lg">
+            <h1>DAS Cine Streaming</h1>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#em-breve">Em Breve</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top-4">Tops 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Lançamentos">Lançamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Cine-pipoca">Cine Pipoca</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gratis">Assista Grátis</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <img class="img-fluid img-thumbnail w-50" src="./imagens/logo-das-cine.png" alt="logo">
+        </div>
+
+    </header>
+    <div class="container">
+        <h1 class="text-center bg-warning mt-2">Em breve em nosso streaming</h1>
+        <section id="em-breve">
+            <div class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <img class="d-block w-100" src="imagens/cavaleiros do zodiaco.jpg" alt="cavaleiros">
+                            </div>
+                            <div class="col">
+                                <img class="d-block w-100" src="imagens/caverna-dragao.jpg" alt="caverna">
+                            </div>
+                            <div class="col">
+                                <img class="d-block w-100" src="imagens/Flash.jpg" alt="Flash">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img class="d-block w-100" src="imagens/Guardioes da galaxia.jpg" alt="Guardioes">
+                            </div>
+                            <div class="col">
+                                <img class="d-block w-100" src="imagens/Indiana jones.jpg" alt="Indiana">
+                            </div>
+                            <div class="col">
+                                <img class="d-block w-100" src="imagens/john wick.jpg" alt="john">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img class="d-block w-100" src="imagens/missao-imposivel.jpg" alt="missao">
+                            </div>
+                            <div class="col">
+                                <img class="d-block w-100" src="imagens/Transformers.jpg" alt="Transformers">
+                            </div>
+                            <div class="col">
+                                <img class="d-block w-100" src="imagens/velozes de furiozos.jpg" alt="velozes">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="top-4">
+            <h1 class="text-bg-info mt-2">Top 4</h1>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/a perseguicao.jpg" alt="perseguicao">
+                        <button class="btn btn-sm btn-outline-primary position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Top 4</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail" src="imagens/a perseguicao.jpg"
+                                                alt="perseguicao">
+                                            <div class="card-body">
+                                                <h4 class="card-title">A Perseguição</h4>
+                                                <h5 class="card-subtitle">The Grey</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Viver ou morrer.
+                                                    Um grupo de petroleiros está voltando para casa após uma longa
+                                                    temporada
+                                                    de
+                                                    trabalho no
+                                                    Alasca. Uma falha mecânica acaba derrubando o avião que os
+                                                    transportava.
+                                                    Os
+                                                    sobreviventes
+                                                    lutarão contra ferimentos mortais, o intenso frio e a fome voraz.
+                                                    Mas o
+                                                    grupo não poderia
+                                                    nem desconfiar que a principal ameaça ainda estaria por vir.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/o passageiro.jpg" alt="passageiro">
+                        <button class="btn btn-sm btn-outline-danger position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse2">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse2" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Top 4</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail" src="imagens/o passageiro.jpg"
+                                                alt="passageiro">
+                                            <div class="card-body">
+                                                <h4 class="card-title">O Passageiro</h4>
+                                                <h5 class="card-subtitle">The Commuter</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Neste intenso suspense de ação, Liam Neeson é Michael, um vendedor
+                                                    de seguros que vê a sua viagem diária de trem para o emprego
+                                                    transformar-se numa série de reviravoltas. Depois de ser abordado
+                                                    por uma misteriosa mulher, Michael é forçado a desvendar a
+                                                    identidade de um passageiro escondido no trem antes que este chegue
+                                                    à última parada. À medida que luta contra o tempo para resolver este
+                                                    quebra cabeça, Michael percebe que está preso no centro de uma
+                                                    conspiração criminosa, que coloca em perigo a sua vida e dos demais
+                                                    passageiros.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/rapida vinganca.jpg" alt="rapida">
+                        <button class="btn btn-sm btn-outline-success position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse3">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse3" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Top 4</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100" src="imagens/rapida vinganca.jpg"
+                                                alt="rapida">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Rápida Vingança</h4>
+                                                <h5 class="card-subtitle">Faster</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Após ficar preso durante 10 anos, Driver (Dwayne Johnson) tem um
+                                                    único objetivo - vingar a morte do irmão que ocorreu durante um
+                                                    assalto a banco mal planejado. Agora que é um homem livre ele
+                                                    finalmente tem uma missão pela frente. Mas com dois homens no seu
+                                                    encalço - um policial veterano (Billy Bob Thornton) que está prestes
+                                                    a se aposentar e um jovem egocêntrico assassino (Oliver
+                                                    Jackson-Cohen) ele acaba de encontrar oponentes a sua altura. O
+                                                    caçador é também a caça.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/riddick.jpg" alt="riddick">
+                        <button class="btn btn-sm btn-outline-warning position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse4">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse4" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Top 4</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100" src="imagens/riddick.jpg"
+                                                alt="riddick">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Riddick 3</h4>
+                                                <h5 class="card-subtitle">Riddick 3</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Sobreviver é a sua vingança.
+                                                    Abandonado em um planeta deserto por sua própria raça, Riddick (Vin
+                                                    Diesel) não quer nada além de vingança contra as pessoas que lhe
+                                                    armaram essa emboscada. Mas antes ele terá de lutar e livrar-se dos
+                                                    caçadores de recompensas , que descobriram seu paradeiro, e só então
+                                                    se sobreviver, retornar ao seu planeta natal, e salvá-lo da
+                                                    destruição.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Lançamentos">
+            <h1 class="text-bg-info">Lançamentos</h1>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/alerta vermelho.jpg" alt="alerta">
+                        <button class="btn btn-sm btn-outline-primary position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse5">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse5" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Lançamentos</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100" src="imagens/alerta vermelho.jpg"
+                                                alt="alerta">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Alerta Vermelho</h4>
+                                                <h5 class="card-subtitle">Red Notice</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Um agente do FBI (Dwayne Johnson) persegue o ladrão de arte mais
+                                                    procurado do mundo. Ele só não esperava ter seu alvo (Ryan Reynolds)
+                                                    como parceiro para prender uma bandida muito esperta (Gal Gadot).
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/brinquedo assassino.jpg">
+                        <button class="btn btn-sm btn-outline-danger position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse6">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse6" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Lançamentos</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100"
+                                                src="imagens/brinquedo assassino.jpg" alt="brinquedo">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Brinquedo Assassino</h4>
+                                                <h5 class="card-subtitle">Child´s Play</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Mais que um brinquedo, ele é o seu melhor amigo. No dia do seu
+                                                    aniversário, Andy (Gabriel Bateman) ganha de presente de sua mãe,
+                                                    Karen (Audrey Plaza), o boneco mais aguardado dos últimos tempos.
+                                                    Altamente tecnológico, ele pode se conectar a qualquer dispositivo
+                                                    inteligente da Kaslan, empresa responsável por sua fabricação. No
+                                                    entanto, quando crimes estranhos começam a acontecer, eles passam a
+                                                    suspeitar que o brinquedo pode não ser tão inofensivo quanto parece.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/furia em alto mar.jpg" alt="furia">
+                        <button class="btn btn-sm btn-outline-success position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse7">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse7" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Lançamentos</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100"
+                                                src="imagens/furia em alto mar.jpg" alt="furia">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Fúria em Alto Mar</h4>
+                                                <h5 class="card-subtitle">Hunter Killer</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Em meio a conflitos entre EUA e Rússia, submarinos de ataque
+                                                    nuclear altamente sofisticados rondam as profundezas do Oceano
+                                                    Ártico. Quando o presidente russo é capturado por inimigos, o
+                                                    capitão Joe Glass (Gerard Butler), se une a um grupo de elite da
+                                                    Marinha norte-americana para tentar salvá-lo. Agora, americanos e
+                                                    russos devem trabalhar juntos para impedir que uma Terceira Guerra
+                                                    Mundial se inicie.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/rambo.jpg" alt="rambo">
+                        <button class="btn btn-sm btn-outline-warning position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse8">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse8" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Lançamentos</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100" src="imagens/rambo.jpg"
+                                                alt="rambo">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Rambo: Até o Fim</h4>
+                                                <h5 class="card-subtitle">Rambo: Last Blood</h5>
+                                                <p class="card-text">Sinopse:
+                                                    O tempo passou para Rambo (Sylvester Stallone), que agora vive
+                                                    recluso em um rancho. Sua vida marcada por lutas violentas ficou
+                                                    para trás, mas deixou marcas inesquecíveis. No entanto, quando uma
+                                                    jovem que ele ajudou a criar é sequestrada, Rambo precisará
+                                                    confrontar seu passado e resgatar suas habilidades de combate para
+                                                    enfrentar o mais perigoso cartel mexicano. A busca logo se
+                                                    transforma em uma caçada por justiça, onde nenhum criminoso será
+                                                    perdoado.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Cine-pipoca">
+            <h1 class="text-bg-info">Cine Pipoca</h1>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/assassinos de guerra.jpg"
+                            alt="assassinos">
+                        <button class="btn btn-sm btn-outline-primary position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse9">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse9" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Cine Pipoca</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100"
+                                                src="imagens/assassinos de guerra.jpg" alt="assassinos">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Assassinos de Guerra</h4>
+                                                <h5 class="card-subtitle">D-Day Assassins</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Em 1944, um grupo rebelde de soldados americanos, conhecidos como
+                                                    'os 13 malditos', descem de paraquedas na Normandia para cumprir uma
+                                                    missão mortal.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/horas de desespero.jpg" alt="horas">
+                        <button class="btn btn-sm btn-outline-danger position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse10">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse10" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Cine Pipoca</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100"
+                                                src="imagens/horas de desespero.jpg" alt="horas">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Horas de Desespero</h4>
+                                                <h5 class="card-subtitle">No Escape</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Ao chegar no país que será sua nova casa e seu novo trabalho, ao sul
+                                                    do Leste Asiático, o executivo Jack Dwyer (Owen Wilson) na companhia
+                                                    de sua esposa Annie e das duas filhas pequenas, Lucy e Beeze é pego
+                                                    em meio a um recente e violento Golpe de Estado, em que toda e
+                                                    qualquer comunicação é suspensa, e os estrangeiros são sumariamente
+                                                    eliminados. Eles começam uma frenética e desesperada corrida para
+                                                    escapar dos terroristas e sair do país com vida. Contam com a ajuda
+                                                    inesperada do aventureiro Hammond ( Pierce Brosnan) e de seu fiel
+                                                    amigo Kenny Roger (Sahajak Boonthanakit), que conhecem bem o país e
+                                                    o risco a que estão todos sujeitos.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/o buraco.jpg" alt="buraco">
+                        <button class="btn btn-sm btn-outline-success position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse11">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse11" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Cine Pipoca</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100" src="imagens/o buraco.jpg"
+                                                alt="buraco">
+                                            <div class="card-body">
+                                                <h4 class="card-title">O Buraco</h4>
+                                                <h5 class="card-subtitle">The Hole</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Encare seus medos
+                                                    O diretor Joe Dante traz uma aventura de arrepiar!
+                                                    Depois de se mudarem para um novo bairro, os irmãos Dane e Lucas
+                                                    conhecem a vizinha Julie e juntos descobrem um buraco lacrado no
+                                                    sótão da casa nova. O que eles nem imaginavam é que uma vez que o
+                                                    buraco seja aberto, além de não ter fundo ele serve como um portal
+                                                    para um mal sem precedentes. Com estranhas sombras à espreita a cada
+                                                    esquina e pesadelos ganhando vida, eles são forçados a encarar seus
+                                                    medos mais profundos para colocar um fim a este mistério. Explore
+                                                    seus medo - se tiver coragem!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/sin city.jpg" alt="sin">
+                        <button class="btn btn-sm btn-outline-warning position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse12">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse12" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Cine Pipoca</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100" src="imagens/sin city.jpg"
+                                                alt="sin">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Sin City - A Cidade do Pecado</h4>
+                                                <h5 class="card-subtitle">Sin City</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Não há Justiça Sem Pecado
+                                                    Um espetacular elenco é dirigido por Robert Rodriguez (Desperado, Um
+                                                    Drink no Inferno, Machete), Frank Miller - e o convidado especial,
+                                                    Quentin Tarantino (Kill Bill1 e 2, Pulp Fiction) - em um aclamado e
+                                                    visualmente arrebatador sucesso dos cinemas. Diretamente das páginas
+                                                    da graphic novel de Frank Miller, Bruce Willis estrela como um
+                                                    policial com um relógio vagabundo e a missão de proteger uma
+                                                    provocante stripper (Jessica Alba - Spy Kids 4, O Quarteto
+                                                    Fantástico); Mickey Rourke (Imortais) como um exilado melancólico
+                                                    que busca vingança pela morte de seu único e verdadeiro amor (Jaime
+                                                    King - Pearl Harbor); e Clive Owen (Confiar) como Dwight, o amor
+                                                    clandestino de Shelli (Brittany Murphy - Little Black Book), que
+                                                    passa a noite protegendo Gail (Rosario Dawson - Rejeitados pelo
+                                                    Diabo) e seu grupo (Devon Aoki e Alexis Bledel) de um cara barra
+                                                    pesada (Benicio Del Toro - 21 Gramas) fanático por violência. Ainda
+                                                    no elenco Elijah Wood, Nick Stahl, Michael Madsen, Carla Gugino e
+                                                    Michael Clarke Duncan.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gratis">
+            <h1 class="text-bg-info">Assista Grátis</h1>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/Vamos Ser Tiras.webp" alt="tiras">
+                        <button class="btn btn-sm btn-outline-primary position-absolute bottom-0 end-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse13">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse13" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Assista Grátis</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100"
+                                                src="imagens/Vamos Ser Tiras.webp" alt="tiras">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Tiras, Só que Não</h4>
+                                                <h5 class="card-subtitle">Let’s Be Cops</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Let’s Be Cops conta a história de dois melhores amigos (Wayans Jr.,
+                                                    Jake Johnson) que ficam decepcionados com o fato de suas vidas terem
+                                                    se tornado tão banais. Então, apenas pela emoção, os dois decidem se
+                                                    passar por policiais e viver as vantagens de fazer as leis serem
+                                                    cumpridas.
+                                                    Porém, quando eles mexem com um gângster (James D’Arcy), eles
+                                                    conseguem mais do que pediram ao entrarem em circunstâncias
+                                                    intensas.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative;">
+                        <button type="button" class="btn btn-sm btn-outline-primary position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#videoModal1"
+                            data-embed-url="https://www.dailymotion.com/embed/video/x3xjmxq">
+                            Assista Grátis
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="videoModal1" tabindex="-1" role="dialog"
+                            aria-labelledby="videoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="videoModalLabel">Tiras, Só que Não
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden"
+                                            frameborder="0" type="text/html"
+                                            src="https://www.dailymotion.com/embed/video/x3xjmxq" width="100%"
+                                            height="100%" allowfullscreen title="Dailymotion Video Player"> </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/A Epidemia.webp" alt="epidemia">
+                        <button class="btn btn-sm btn-outline-primary position-absolute bottom-0 end-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse14">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse14" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Assista Grátis</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100" src="imagens/A Epidemia.webp"
+                                                alt="epidemia">
+                                            <div class="card-body">
+                                                <h4 class="card-title">A Epidemia</h4>
+                                                <h5 class="card-subtitle">The Crazies</h5>
+                                                <p class="card-text">Sinopse:
+                                                    O sonho americano vai por água abaixo quando os moradores de uma
+                                                    cidade começam a sucumbir a um desejo incontrolável de violência e
+                                                    horrível carnificina depois de beberem uma toxina misteriosa. Na
+                                                    tentativa de conter a epidemia, militares usam força letal para
+                                                    fechar o acesso para dentro ou para fora da cidade, abandonando a
+                                                    poucos cidadãos saudáveis para o caos crescente como depravados
+                                                    assassinos se escondem nas sombras.
+                                                    O xerife David Dutton, sua esposa grávida, Judy, Becca, um
+                                                    assistente do centro médico, e Russell, seu braço direito,
+                                                    encontram-se presos em uma cidade anárquica. Não é possível confiar
+                                                    em antigos vizinhos e amigos, abandonados pelas autoridades e com
+                                                    medo de contrair a doença em si, são forçados a se unir em uma luta
+                                                    pela sobrevivência.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative;">
+                        <button type="button" class="btn btn-sm btn-outline-primary position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#videoModal1"
+                            data-embed-url="https://www.dailymotion.com/embed/video/x8l579m">
+                            Assista Grátis
+                        </button>
+                        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog"
+                            aria-labelledby="videoModalLabel2" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="videoModalLabel2">A Epidemia
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden"
+                                            frameborder="0" type="text/html"
+                                            src="https://www.dailymotion.com/embed/video/x8l579m" width="100%"
+                                            height="100%" allowfullscreen title="Dailymotion Video Player"> </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/Fúria Cannabis.webp" alt="Cannabis">
+                        <button class="btn btn-sm btn-outline-primary position-absolute bottom-0 end-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse15">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse15" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Assista Grátis</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100" src="imagens/Fúria Cannabis.webp"
+                                                alt="Cannabis">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Fúria Cannabis</h4>
+                                                <h5 class="card-subtitle">The World Made Straight</h5>
+                                                <p class="card-text">Sinopse:
+                                                    Em uma comunidade rural dos Apalaches assombrado pelo legado de um
+                                                    massacre da Guerra Civil, um jovem rebelde luta para escapar da
+                                                    violência que iria prendê-lo ao passado.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative;">
+                        <button type="button" class="btn btn-sm btn-outline-primary position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#videoModal1"
+                            data-embed-url="https://www.dailymotion.com/embed/video/x8dmfyk">
+                            Assista Grátis
+                        </button>
+                        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog"
+                            aria-labelledby="videoModalLabel3" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="videoModalLabel3">Fúria Cannabis
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden"
+                                            frameborder="0" type="text/html"
+                                            src="https://www.dailymotion.com/embed/video/x8dmfyk" width="100%"
+                                            height="100%" allowfullscreen title="Dailymotion Video Player"> </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div style="position: relative;">
+                        <img class="img-fluid img-thumbnail w-100" src="imagens/Em Busca de Justiça.webp" alt="Busca">
+                        <button class="btn btn-sm btn-outline-primary position-absolute bottom-0 end-0"
+                            data-bs-toggle="modal" data-bs-target="#sinopse16">Sinopse</button>
+                        <div class="modal modal-sm" id="sinopse16" data-bs-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between">
+                                                <h2>Assista Grátis</h2>
+                                                <button class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                            </div>
+                                            <img class="img-fluid img-thumbnail w-100"
+                                                src="imagens/Em Busca de Justiça.webp" alt="Busca">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Em Busca de Justiça</h4>
+                                                <h5 class="card-subtitle">Ging Chat Goo Si</h5>
+                                                <p class="card-text">Sinopse:
+                                                    A história começa quando todos os clientes em um bar de repente são
+                                                    sequestrados e mantidos reféns. Entre os clientes estão o Capitão da
+                                                    polícia Zhong Wen (Jackie Chan) um indivíduo triste deprimido, um
+                                                    mau pai e sua rebelde filha Miaomiao (Jing Tian).
+                                                    O frio sequestrador é o dono do bar e novo namorado de MiaMiao, Wu
+                                                    Jiang (Ye Liu),que está esperando para usar seus reféns para
+                                                    garantir a libertação de um assassino condenado que foi preso por
+                                                    muitos anos. Zhong Wen usa suas habilidades como um grande policial
+                                                    para entender que Wu Jiang está buscando uma vingança que começou
+                                                    numa noite há cinco anos. São coisas tão simples quanto parece? Qual
+                                                    é a sua verdadeira motivação para esta ação desesperada? Este é um
+                                                    jogo mortal para vingar um amor perdido.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative;">
+                        <button type="button" class="btn btn-sm btn-outline-primary position-absolute bottom-0 start-0"
+                            data-bs-toggle="modal" data-bs-target="#videoModal1"
+                            data-embed-url="https://www.dailymotion.com/embed/video/x8dmfyf">
+                            Assista Grátis
+                        </button>
+                        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog"
+                            aria-labelledby="videoModalLabel4" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="videoModalLabel4">A Epidemia
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe class="embed-responsive-item"
+                                            style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden"
+                                            frameborder="0" type="text/html"
+                                            src="https://www.dailymotion.com/embed/video/x8dmfyf" width="100%"
+                                            height="100%" allowfullscreen title="Dailymotion Video Player"> </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer pt-2 pb-1 mb-2 mb-2">
+            <div class="container  text-bg-info">
+                <h4 class="text-center">Desenvolvido por Deive Silva - &copy; 2023 - DAS Cine Streaming - Todos os Direitos Reservados</h4>
+            </div>
+        </footer>
+    </div>
+    <script src="../lib/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function loadVimeoVideo(embedUrl) {
+            var iframe = '<iframe src="' + embedUrl + '" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
+            $("#videoModal1 .modal-body").html(iframe);
+        }
+
+        $("#videoModal1").on("hidden.bs.modal", function () {
+            $("#videoModal1 .modal-body iframe").attr("src", "");
+        });
+
+        $("#videoModal1").on("show.bs.modal", function (event) {
+            let button = $(event.relatedTarget);
+            let embedUrl = button.data("embed-url");
+            loadVimeoVideo(embedUrl);
+        });
+    </script>
+</body>
+
+</html>
