@@ -1,0 +1,25 @@
+@use '../config/variaveis';
+body {
+
+    background-color: variaveis.$corSecundaria;
+
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .card {
+        background-color: variaveis.$corPrincipal;
+        color: variaveis.$corTexto;
+    }
+
+    footer {
+        background-color: variaveis.$corSecundaria;
+    }
+
+}
